@@ -12,3 +12,6 @@ Your task is to use blend (ensemble) the various submission files to produce bet
 1. submission_files/ - a folder containing binary model predictions
 2. train_labels.csv - the ground truth labels for the first half of the rows in the submission files
 3. sample_submission.csv - a sample submission file in the correct format, only containing the row ids for the second half of each file in the submissions folder; your task is to blend together submissions that achieve the improvements in the score.
+
+
+# After ensembling there is an almost 10% decrement in log_loss score 
